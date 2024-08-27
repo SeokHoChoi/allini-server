@@ -5,9 +5,33 @@
 !.yarn/sdks
 !.yarn/versions
 
+# misc
+/.DS_Store
+/yarn-error.log
+/.yarnclean
+/.yarnrc.yml
+/.yarn
+.yarn
+
 # Swap the comments on the following lines if you wish to use zero-installs
 # In that case, don't forget to run `yarn config set enableGlobalCache false`!
 # Documentation here: https://yarnpkg.com/features/caching#zero-installs
 
 #!.yarn/cache
 .pnp.*
+
+# Build output
+dist/*
+
+# VSCode settings
+.vscode/
+
+# TypeScript build output (if not in dist/)
+*.js
+*.js.map
+
+# TypeScript build info files
+*.tsbuildinfo
+
+# environment variables
+/.env
